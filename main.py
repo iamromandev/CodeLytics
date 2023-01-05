@@ -7,7 +7,7 @@ def test_first():
 
 
 def get_value():
-    return ""
+    return "Nice Value!!"
 
 
 def test_value():
