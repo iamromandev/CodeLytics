@@ -10,9 +10,5 @@ def get_value():
 
 
 def test_value():
-    value = get_value()
-    if value:
-        return f"Fine"
-    else:
-        return f"Not Fine    "
+    return "Fine" if (value := get_value()) else "Not Fine    "
 
